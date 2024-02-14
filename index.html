@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Question</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .question {
+      font-size: 24px;
+      color: #333;
+    }
+    .options {
+      margin-top: 20px;
+    }
+    input[type="radio"] {
+      display: none;
+    }
+    label {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: pink;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="radio"]:checked + label {
+      background-color: #ff66cc; /* darker pink when selected */
+    }
+  </style>
+</head>
+<body>
+    <p>
+        <img src="1.jpeg" width="33%">
+        <img src="2.jpeg" width="33%">
+        <img src="3.jpeg" width="33%">
+        <img src="4.jpeg" width="33%">
+        <img src="5.jpeg" width="33%">
+        <img src="6.jpg" width="33%">
+        <img src="7.jpg" width="33%">
+        <img src="8.jpg" width="33%">
+        <img src="9.jpg" width="33%">
+    </p>
+  <div class="container">
+    <div class="question">Will you be my valentine pookie bear?</div>
+    <div class="options">
+      <input type="radio" id="yes" name="valentine" value="yes">
+      <label for="yes">Yes</label>
+      
+      <input type="radio" id="definitely_yes" name="valentine" value="definitely_yes">
+      <label for="definitely_yes">Definitely Yes</label>
+    </div>
+  </div>
+</body>
+</html>
